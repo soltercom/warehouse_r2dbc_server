@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306
+    name: warehouse
+    username: root
+    password: e4e5Kc3Kf6
+
+
+logging:
+  level:
+    org:
+      springframework:
+        r2dbc: debug
+
+server:
+  port: 8090
